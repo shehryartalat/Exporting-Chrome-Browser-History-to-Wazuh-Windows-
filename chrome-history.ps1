@@ -1,7 +1,7 @@
 <# Chrome → NDJSON incremental exporter for Wazuh (Windows)
    - AllUsers support (when running as SYSTEM)
    - Safe logging (StrictMode-proof)
-   - Pre-creates NDJSON files (no BOM)
+   - Pre-creates NDJSON files (no BOM) 
    - 20s loop; only NEW rows unless -BootstrapEmitExisting
 #>
 
